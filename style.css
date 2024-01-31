@@ -1,6 +1,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
+
     text-align: center;
+}
+
+#hero {
+    width: 592px;            /*delimitado a largura max*/
+    margin: auto 344px 141px;  /*reve*/
+    
+    border: solid 1px red;
 }
 
 h1 {
@@ -20,4 +28,7 @@ span, a {
 
 p {
     color: #7D7987;
+    
+    font-size: 14px;
+    line-height: 28px;
 }
