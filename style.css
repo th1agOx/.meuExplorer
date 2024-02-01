@@ -2,20 +2,26 @@ body {
     font-family: 'Open Sans', sans-serif;
 
     text-align: center;
+    margin: 0 auto 33px           
 }
 
 #hero {
-    width: 592px;            /*delimitado a largura max*/
-    margin: auto 344px 141px;  /*reve*/
-    
-    border: solid 1px red;
+    width: 592px;            /*largura max*/
+    margin: 0 auto 72px;     /*top right bottom left */
 }
+
+#hero img {
+    margin-bottom: 72px;    /* margen baixa */
+}
+
 
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 49px;
     line-height: 56px;
     font-weight: normal;      /*peso da fonte*/
+
+    margin-bottom: 32px;      /* margen baixa */
 }
 
 h1 span {
@@ -26,9 +32,29 @@ span, a {
     color: #F90;
 }
 
-p {
+p, #footer {
     color: #7D7987;
     
     font-size: 14px;
     line-height: 28px;
+}
+
+
+#footer a + a {                /* seletor tag 'a' anterior a ela */ 
+    margin-left: 28px; 
+}
+
+#line {
+    width: 565px;
+    height: 0px;
+
+    margin: 0 auto 8px;
+
+    border: 1px solid #ECEFF2;
+}
+
+#balls {
+    position: fixed;           /* posição fixa na tela */
+    bottom: 0px;
+    right: 0px;
 }
